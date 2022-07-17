@@ -1,0 +1,239 @@
+                                                        @charset "utf-8";
+                                                        html {
+                                                            height: 100%;
+                                                        }
+                                                        
+                                                        body {
+                                                            position: relative;
+                                                            padding-bottom: 75px;
+                                                            min-height: 100%;
+                                                        }
+                                                        
+                                                        header li,
+                                                        section li {
+                                                            list-style: none;
+                                                        }
+                                                        
+                                                        p,
+                                                        ul {
+                                                            margin: 0;
+                                                            padding: 0;
+                                                        }
+                                                        
+                                                        div,
+                                                        li {
+                                                            box-sizing: border-box;
+                                                        }
+                                                        
+                                                        .header_nav {
+                                                            background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+                                                            display: flex;
+                                                            height: 60px;
+                                                            justify-content: space-between;
+                                                            align-items: stretch;
+                                                            position: fixed;
+                                                            top: 0;
+                                                            width: 100%;
+                                                        }
+                                                        
+                                                        footer nav {
+                                                            color: #fff;
+                                                            display: flex;
+                                                            align-items: stretch;
+                                                            justify-content: space-around;
+                                                        }
+                                                        
+                                                        .global_nav_item {
+                                                            color: #fff;
+                                                            text-decoration: none;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            padding: 0 20px;
+                                                        }
+                                                        
+                                                        footer nav a {
+                                                            color: #fff;
+                                                            text-decoration: none;
+                                                            display: inline-block;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        footer img {
+                                                            margin-top: 5px;
+                                                        }
+                                                        
+                                                        .footer_a {
+                                                            padding-bottom: 5px;
+                                                            margin-top: 10px;
+                                                        }
+                                                        
+                                                        footer a {
+                                                            padding-right: 18px;
+                                                        }
+                                                        
+                                                        .footer_ul {
+                                                            display: flex;
+                                                            margin-top: 8px;
+                                                            margin-bottom: -5px;
+                                                        }
+                                                        
+                                                        .global_nav_item:hover {
+                                                            background: #fff;
+                                                            color: #42210b;
+                                                        }
+                                                        
+                                                        .global_nav {
+                                                            display: flex;
+                                                            align-items: stretch;
+                                                        }
+                                                        
+                                                        .logo {
+                                                            width: 120px;
+                                                            display: flex;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .logo img {
+                                                            width: 100%;
+                                                        }
+                                                        
+                                                        .section_inner {
+                                                            padding: 50px 10% 30px;
+                                                        }
+                                                        
+                                                        .section {
+                                                            background: center/ cover no-repeat url("../images/sample_menu_bg.jpg");
+                                                            padding: 50px 10% 30px;
+                                                            background-attachment: fixed;
+                                                        }
+                                                        
+                                                        .key {
+                                                            height: 500px;
+                                                            background: center / cover no-repeat url("../images/sample_key.jpg");
+                                                            font-family: 'Noto Serif JP', serif;
+                                                            font-weight: bold;
+                                                        }
+                                                        
+                                                        .key h1 {
+                                                            font-size: 2.5rem;
+                                                            margin-top: 27%;
+                                                        }
+                                                        
+                                                        .alignement {
+                                                            display: flex;
+                                                        }
+                                                        
+                                                        .section_title {
+                                                            font-family: 'Noto Serif JP', serif;
+                                                            font-weight: bold;
+                                                            text-align: center;
+                                                            margin-bottom: 50px;
+                                                        }
+                                                        
+                                                        .menu_title {
+                                                            display: inline-block;
+                                                            font-family: 'Noto Serif JP', serif;
+                                                            font-size: 1.5rem;
+                                                            color: #42210b;
+                                                            border-bottom: solid #42210b 1px;
+                                                            margin-bottom: 20px;
+                                                        }
+                                                        
+                                                        .center {
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .caffee_menu_image {
+                                                            width: 20%;
+                                                            border-radius: 50%;
+                                                        }
+                                                        
+                                                        .p_alignement {
+                                                            width: 60%;
+                                                        }
+                                                        
+                                                        .img_alignement {
+                                                            width: 35%;
+                                                            margin-left: 50px;
+                                                            padding-top: 0%;
+                                                        }
+                                                        
+                                                        .li_menu {
+                                                            display: flex;
+                                                            height: 49%;
+                                                            margin: 5px;
+                                                            border: none;
+                                                        }
+                                                        
+                                                        .menu_re {
+                                                            display: flex;
+                                                        }
+                                                        
+                                                        .li_img {
+                                                            height: 55%;
+                                                            width: 170px;
+                                                        }
+                                                        
+                                                        .li_text1 {
+                                                            background-color: #fff;
+                                                            padding-left: 1.5rem;
+                                                        }
+                                                        
+                                                        .li_text2 {
+                                                            background-color: #fff;
+                                                            padding-left: 1.2rem;
+                                                        }
+                                                        
+                                                        .menu_cof {
+                                                            display: flex;
+                                                            background-color: #fff;
+                                                            border: solid 15px rgb(163, 236, 163);
+                                                        }
+                                                        
+                                                        .li_menucof {
+                                                            display: flex;
+                                                        }
+                                                        
+                                                        .div_menu {
+                                                            display: inline;
+                                                            height: 80%;
+                                                        }
+                                                        
+                                                        .div1 {
+                                                            height: 49%;
+                                                        }
+                                                        
+                                                        .menu_bottom {
+                                                            margin-top: 20px;
+                                                        }
+                                                        
+                                                        dl {
+                                                            display: flex;
+                                                        }
+                                                        
+                                                        dt {
+                                                            width: 80px;
+                                                        }
+                                                        
+                                                        footer {
+                                                            background-color: #251e19;
+                                                            color: whitesmoke;
+                                                            height: 75px;
+                                                        }
+                                                        
+                                                        footer p {
+                                                            text-align: center;
+                                                            margin-top: 13px;
+                                                            font-size: 9px;
+                                                            margin-right: 20px;
+                                                        }
+                                                        
+                                                        .p_menu {
+                                                            text-align: right;
+                                                            margin-top: 50px;
+                                                            margin-right: 5px;
+                                                        }
+                                                        
+                                                        .menu {
+                                                            margin-top: 95px;
+                                                        }
